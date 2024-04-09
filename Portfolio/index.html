@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0d89490ab7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="note">
+          <h2>
+            Description: We are creating this website to develop a personal
+            portfolio for the users so that you will be able to create your own
+            personal portfolio for reference in your job applications. Here the
+            interface of our website is an example of the portfolio you will be
+            getiing after filling your details.
+          </h2>
+        </div>
+        <div class="header-text">
+          <h1>
+            Hello, I'm <span>Rahul</span><br />
+            <span>A Frontend Web-Devloper</span>
+            
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--------about-------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="2210990704.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              "Hi, My name is Rahul Singh, and I'm a student of Chitkara University,
+              Passionate and driven Computer Science and Engineering student with a keen interest in technology and innovation. Currently in my 2nd year of undergraduate studies, I am eager to contribute my skills and knowledge to the dynamic field of computer science.
+              <a href="">https://github.com/Rahul6225</a>
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+              <p class="tab-links" onclick="opentab('Personal info.')">
+                Personal info.
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Project Made</span><br />1.Global Trotter-Tourism Website
+                </li>
+                <li>2.Bitcoin Price prediction by using AI/ML</li>
+                <li>3.Note Log</li>
+                <li>
+                  <span>Web Development</span><br />Designing Web interfaces
+                </li>
+                <li>
+                  <span>Coding & Problem Solver</span><br />Data Structures And Algorithm Using C++
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Course Details</span><br />BE-CSE from Chitkara University
+                </li>
+                <li>
+                  <span>2021 </span><br />Completed class 12 with Non medical
+                  from shivalik Schools
+                </li>
+                <li><span>Job Experience(if any)</span><br />None</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Personal info.">
+              <ul>
+                <li><span>Date of Birth</span><br />1 July 2003</li>
+                <li><span>Gender</span><br />male</li>
+                <li>
+                  <span>Hobbies</span><br />Listening Music, singing and playing
+                  musical instruments
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------services----------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2> Mern Web Design</h2>
+            <p>
+              provides you with a customized website design that's perfect for
+              your business or personal site.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Coding-Problem Solver</h2>
+            <p>
+              A coding problem solver is someone who possesses strong analytical skills and programming expertise to tackle complex technical challenges. They excel at breaking down problems into manageable components, devising efficient algorithms, and writing clean, maintainable code to implement solutions.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------Work-------------->
+    <div id="Work">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="WhatsApp Image 2024-04-09 at 10.47.28_a0f2288e.jpg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                The app connects you to the talented people around the world
+                Download it from Play store.
+              </p>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="WhatsApp Image 2024-04-09 at 10.47.29_873a7744.jpg" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you to the talented people around the world
+                Download it from Play store.
+              </p>
+              <a href="https://open.spotify.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="WhatsApp Image 2024-04-09 at 10.47.28_a0f2288e.jpg" />
+            <div class="layer">
+              <h3>Online shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world
+                Download it from Play store.
+              </p>
+              <a href="https://www.amazon.in"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------create portfolio------------>
+    <div id="Portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="Portfolio-left">
+            <h1 class="sub-title">Create Portfolio</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> Follow below steps to
+              create your Personal Portfolio :-
+            </p>
+            <p>
+              Step1: Click on Create Button below after that form will be open
+            </p>
+            <p>Step2: fill all the required field which will be asked</p>
+            <p>Step3: click on submit button below</p>
+            <p>Step4: your Personal Portfolio website will be created</p>
+            <button type="button">
+              <a href="file:///C:/Users/hP/Desktop/HTML/index%20(2).html">
+                Create</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------contact--------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <a href="www.linkedin.com/in/rahul-singh-235267280">www.linkedin.com/in/rahul-singh-235267280</a>
+            <p><i class="fa-solid fa-paper-plane"></i>Rahul Singh</p>
+            <p>
+              <i class="fa-solid fa-square-envelope"></i>
+              Rahul704.be22@chitkara.edu.in
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>9193946225</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
